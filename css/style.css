@@ -138,28 +138,52 @@ body {
   margin-top: 15px;
   margin-bottom: 30px;
 }
+
 .form__wrapper {
 }
+
 .form__label {
   display: block;
+  margin-bottom: 30px;
 }
-.form__input {
+
+.form__input,
+.form__btn {
   width: 100%;
   border: 1px solid rgba(175, 168, 168, 0.5);
   border-radius: 2px;
   padding: 10px 5px;
   outline: none;
 }
+
 .form__btn {
-  width: 100%;
+  color: #ffffff;
+  background-color: rgb(230, 109, 40);
+  margin-bottom: 30px;
 }
+
 .wrap-link {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(71, 71, 243);
+  margin-bottom: 30px;
 }
+
 .form__link {
 }
+
+.form__btn--bottom {
+  width: 100%;
+  padding: 10px 0;
+}
+
 .form__span {
+  display: block;
+  margin-bottom: 20px;
 }
 .form__link--btn {
+  color: rgb(71, 71, 243);
+  display: block;
 }
 .form__logo--bottom {
 }
