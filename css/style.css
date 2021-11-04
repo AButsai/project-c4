@@ -1,0 +1,118 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  padding: 15px 30px;
+}
+
+.logo__link {
+  display: flex;
+  align-items: center;
+}
+
+.logo__text {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.logo__img {
+  margin-right: 10px;
+}
+
+.main {
+  max-height: 100%;
+  flex: 1 1 auto;
+  margin: 0 5px;
+}
+
+.section {
+  height: 100%;
+  background-color: #e5e5e5;
+  box-shadow: inset 0px 8px 6px -6px #888;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 1600px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.content__main {
+}
+.content__tilte {
+}
+.content__img {
+}
+.form {
+}
+.form__logo-wrap {
+}
+.form__link--top {
+}
+.form__logo--top {
+}
+.form__text {
+}
+.form__wrapper {
+}
+.form__label {
+}
+.form__input {
+}
+.form__btn {
+}
+.wrap-link {
+}
+.form__link {
+}
+.form__span {
+}
+.form__link--btn {
+}
+.form__logo {
+}
+.footer {
+  padding: 15px 30px;
+}
+.footer__text {
+  font-size: 12px;
+  color: rgb(35, 62, 182);
+}
