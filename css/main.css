@@ -49,24 +49,7 @@ body {
   overflow: hidden;
 }
 
-.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .wrap {
-  padding: 15px 15px;
-  margin: 0 auto;
-}
-
-.container {
   padding: 15px 15px;
   margin: 0 auto;
 }
@@ -111,8 +94,26 @@ body {
   padding: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+}
+
 .content__main {
   display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .content__main {
+    display: block;
+  }
 }
 
 .form {
@@ -210,9 +211,16 @@ body {
   position: absolute;
   top: 5px;
   content: "";
-  width: 160px;
+  width: 180px;
   height: 1px;
   background-color: #c4c4c4;
+}
+
+@media screen and (max-width: 479px) {
+  .form__span::before,
+  .form__span::after {
+    width: 100px;
+  }
 }
 
 .form__span::before {
